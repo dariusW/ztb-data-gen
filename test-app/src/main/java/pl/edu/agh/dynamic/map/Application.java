@@ -14,6 +14,8 @@ import pl.edu.agh.dynamic.map.model.SensorType;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
@@ -49,6 +51,7 @@ public class Application {
     private static final String ACTIVITY_TEST3 = "Test 3";
     private static final String ACTIVITY_TEST4 = "Test 4";
     private static final String ACTIVITY_TEST5 = "Test 5";
+    private static final String ACTIVITY_TEST6 = "Test 6";
 
     private static Logger log;
     private static ConnectionManager connectionManager;
@@ -68,6 +71,7 @@ public class Application {
         test1();
         test2();
 
+        test6();
         log.info("All tests executed successfully :)");
     }
 
@@ -159,4 +163,45 @@ public class Application {
         rdnrDao = new RdnrDao(connectionManager.getConnection(RDNR));
     }
 
+
+    private static void test6() throws SQLException {
+        log.info("=== Executing test 6 ===");
+        statsCollector.startActivity(ACTIVITY_TEST6);
+
+        String sql1 = "SELECT distinct way_id FROM krakow.way_tags WHERE v in ('Bronowicka', 'Królewska');";
+		log.info("Selecting wayOne parts. Executing: "+sql1);
+        PreparedStatement wayOne = osmosisDao.getConnection().prepareStatement(sql1);
+        
+        ResultSet wayOneParts = wayOne.executeQuery();
+        int count = 0;
+        StringBuilder sb = new StringBuilder();
+        sb.append("SELECT distinct id FROM krakow.way_segments WHERE id in (");
+        while(wayOneParts.next()){
+        	if(count>0)
+        		sb.append(",");
+        	count++;
+        	sb.append(wayOneParts.getLong("way_id"));
+        }
+        sb.append(");");
+        log.info("Ways for wayOne found: "+count);
+        String sql3 = sb.toString();
+        log.info("Selecting wayOne segments ids. Executing: "+sql3);
+        
+        
+        String sql2 = "SELECT distinct way_id FROM krakow.way_tags WHERE v in ('Nawojki', 'Czarnowiejska', 'Armii Krajowej');";
+        log.info("Selecting wayTwo parts. Executing: "+sql2);
+        PreparedStatement wayTwo = osmosisDao.getConnection().prepareStatement(sql2);
+        
+        ResultSet wayTwoParts = wayTwo.executeQuery();
+        count = 0;
+        while(wayTwoParts.next()){
+        	count++;
+        }
+        log.info("Ways for wayOne found: "+count);
+        
+        
+        statsCollector.finishActivity(ACTIVITY_TEST6);
+        log.info("Test 6 executed successfully.");
+        log.info(statsCollector.getLogFor(ACTIVITY_TEST6));
+    }
 }

@@ -1,0 +1,217 @@
+INFO : [sty-24 11:56:42,785] root - GIT :)
+INFO : [sty-25 15:52:23,950] root - Osmosis connection established successfully!
+INFO : [sty-25 15:52:23,992] root - RDNR connection established successfully!
+INFO : [sty-25 15:52:23,992] root - GIT :)
+INFO : [sty-25 16:11:24,566] root - Osmosis connection established successfully!
+INFO : [sty-25 16:11:24,615] root - RDNR connection established successfully!
+INFO : [sty-25 16:11:24,681] root - GIT :)
+INFO : [sty-25 16:17:25,953] root - Osmosis connection established successfully!
+INFO : [sty-25 16:17:26,004] root - RDNR connection established successfully!
+INFO : [sty-25 16:17:26,022] root - GIT :)
+INFO : [sty-25 22:20:07,161] root - Osmosis connection established successfully!
+INFO : [sty-25 22:20:07,206] root - RDNR connection established successfully!
+INFO : [sty-25 22:20:07,378] root - GIT :)
+INFO : [sty-25 22:20:57,793] root - Osmosis connection established successfully!
+INFO : [sty-25 22:20:57,847] root - RDNR connection established successfully!
+INFO : [sty-25 22:20:57,888] root - Fetched 0
+INFO : [sty-25 22:20:57,888] root - GIT :)
+INFO : [sty-25 22:21:53,494] root - Osmosis connection established successfully!
+INFO : [sty-25 22:21:53,556] root - RDNR connection established successfully!
+INFO : [sty-25 22:24:20,252] root - Osmosis connection established successfully!
+INFO : [sty-25 22:24:20,292] root - RDNR connection established successfully!
+INFO : [sty-25 22:24:20,338] root - Fetched 139
+INFO : [sty-25 22:24:20,338] root - GIT :)
+INFO : [sty-25 23:20:37,721] root - Osmosis connection established successfully!
+INFO : [sty-25 23:20:37,757] root - RDNR connection established successfully!
+INFO : [sty-25 23:20:37,878] root - Fetched 139 crossroads
+INFO : [sty-25 23:21:51,136] root - Osmosis connection established successfully!
+INFO : [sty-25 23:21:51,177] root - RDNR connection established successfully!
+INFO : [sty-25 23:21:51,216] root - Fetched 139 crossroads
+INFO : [sty-25 23:24:48,304] root - Osmosis connection established successfully!
+INFO : [sty-25 23:24:48,350] root - RDNR connection established successfully!
+INFO : [sty-25 23:24:48,407] root - Fetched 139 crossroads
+INFO : [sty-25 23:24:48,545] root - GIT :)
+INFO : [sty-25 23:31:22,779] root - Osmosis connection established successfully!
+INFO : [sty-25 23:31:22,826] root - RDNR connection established successfully!
+INFO : [sty-25 23:31:22,935] root - Fetched 139 crossroads
+INFO : [sty-25 23:31:23,037] root - GIT :)
+INFO : [sty-26 09:26:49,698] root - Osmosis connection established successfully!
+INFO : [sty-26 09:26:49,770] root - RDNR connection established successfully!
+INFO : [sty-26 09:26:50,047] root - Fetched 139 crossroads
+INFO : [sty-26 09:26:50,134] root - GIT :)
+INFO : [sty-26 09:28:55,942] root - Osmosis connection established successfully!
+INFO : [sty-26 09:28:55,987] root - RDNR connection established successfully!
+INFO : [sty-26 09:28:56,114] root - Fetched 139 crossroads
+INFO : [sty-26 09:50:46,140] root - Osmosis connection established successfully!
+INFO : [sty-26 09:50:46,187] root - RDNR connection established successfully!
+INFO : [sty-26 09:50:46,287] root - Fetched 139 crossroads
+INFO : [sty-26 09:50:46,313] root - GIT :)
+INFO : [sty-26 10:43:47,776] root - Osmosis connection established successfully!
+INFO : [sty-26 10:43:47,815] root - RDNR connection established successfully!
+INFO : [sty-26 10:43:47,925] root - Fetched 139 crossroads
+INFO : [sty-26 10:43:47,964] root - Fetched 802 sensors
+INFO : [sty-26 10:43:47,965] root - GIT :)
+INFO : [sty-26 10:48:18,970] root - Osmosis connection established successfully!
+INFO : [sty-26 10:48:19,018] root - RDNR connection established successfully!
+INFO : [sty-26 10:48:19,037] root - Executing test 1
+INFO : [sty-26 10:48:19,144] root - Fetched 139 crossroads
+INFO : [sty-26 10:48:19,187] root - Fetched 802 sensors
+INFO : [sty-26 10:48:19,188] root - Test 1 executed successfully. Total time: 149 ms
+INFO : [sty-26 10:48:19,188] root - GIT :)
+INFO : [sty-26 10:56:49,927] root - Osmosis connection established successfully!
+INFO : [sty-26 10:56:49,969] root - RDNR connection established successfully!
+INFO : [sty-26 10:56:49,981] root - Executing test 1
+INFO : [sty-26 10:56:50,071] root - Fetched 139 crossroads
+INFO : [sty-26 10:56:50,111] root - Fetched 802 sensors
+INFO : [sty-26 10:56:50,114] root - AVERAGE SPEED on selected crossroads is 31.0
+INFO : [sty-26 10:56:50,114] root - Test 1 executed successfully. Total time: 133 ms
+INFO : [sty-26 10:56:50,114] root - GIT :)
+INFO : [sty-26 10:57:17,361] root - Osmosis connection established successfully!
+INFO : [sty-26 10:57:17,405] root - RDNR connection established successfully!
+INFO : [sty-26 10:57:17,418] root - Executing test 1
+INFO : [sty-26 10:57:17,448] root - Fetched 139 crossroads
+INFO : [sty-26 10:57:17,486] root - Fetched 802 sensors
+INFO : [sty-26 10:57:17,488] root - AVERAGE SPEED on selected crossroads is 31.0km/h
+INFO : [sty-26 10:57:17,488] root - Test 1 executed successfully. Total time: 70 ms
+INFO : [sty-26 10:57:17,488] root - GIT :)
+INFO : [sty-26 11:24:42,032] root - Osmosis connection established successfully!
+INFO : [sty-26 11:24:42,067] root - RDNR connection established successfully!
+INFO : [sty-26 11:24:42,080] root - Executing test 1
+INFO : [sty-26 11:24:42,170] root - Fetched 139 crossroads
+INFO : [sty-26 11:24:42,212] root - Fetched 802 sensors
+INFO : [sty-26 11:24:42,213] root - AVERAGE SPEED on selected crossroads is 31.0km/h
+INFO : [sty-26 11:24:42,213] root - Test 1 executed successfully. Total time: 133 ms
+INFO : [sty-26 11:24:42,213] root - GIT :)
+INFO : [sty-27 22:02:08,690] root - Osmosis connection established successfully!
+INFO : [sty-27 22:02:08,808] root - RDNR connection established successfully!
+INFO : [sty-27 22:02:08,949] root - Executing test 1
+INFO : [sty-27 22:02:09,570] root - Fetched 139 crossroads
+INFO : [sty-27 22:02:10,101] root - Fetched 802 sensors
+INFO : [sty-27 22:02:10,105] root - AVERAGE SPEED on selected crossroads is 31.0km/h
+INFO : [sty-27 22:02:10,105] root - Test 1 executed successfully.
+INFO : [sty-27 22:02:10,105] root - Activity: Test 1
+Total time: 1155ms
+INFO : [sty-27 22:02:10,105] root - All tests executed successfully :)
+INFO : [sty-27 22:02:41,771] root - Osmosis connection established successfully!
+INFO : [sty-27 22:02:41,813] root - RDNR connection established successfully!
+INFO : [sty-27 22:02:41,825] root - Executing test 1
+INFO : [sty-27 22:02:41,855] root - Fetched 139 crossroads
+INFO : [sty-27 22:02:41,894] root - Fetched 802 sensors
+INFO : [sty-27 22:02:41,895] root - AVERAGE SPEED on selected crossroads is 31.0km/h
+INFO : [sty-27 22:02:41,895] root - Test 1 executed successfully.
+INFO : [sty-27 22:02:41,895] root - Activity: Test 1Total time: 69ms
+INFO : [sty-27 22:02:41,895] root - All tests executed successfully :)
+INFO : [sty-27 22:03:13,093] root - Osmosis connection established successfully!
+INFO : [sty-27 22:03:13,144] root - RDNR connection established successfully!
+INFO : [sty-27 22:03:13,160] root - Executing test 1
+INFO : [sty-27 22:03:13,200] root - Fetched 139 crossroads
+INFO : [sty-27 22:03:13,251] root - Fetched 802 sensors
+INFO : [sty-27 22:03:13,255] root - AVERAGE SPEED on selected crossroads is 31.0km/h
+INFO : [sty-27 22:03:13,255] root - Test 1 executed successfully.
+INFO : [sty-27 22:03:13,255] root - Activity: Test 1 finished. Total time: 94ms
+INFO : [sty-27 22:03:13,255] root - All tests executed successfully :)
+INFO : [sty-27 22:26:14,928] root - Osmosis connection established successfully!
+INFO : [sty-27 22:26:14,969] root - RDNR connection established successfully!
+INFO : [sty-27 22:26:14,982] root - === Executing test 1 ===
+INFO : [sty-27 22:26:15,074] root - Fetched 139 crossroads
+INFO : [sty-27 22:26:15,111] root - Fetched 802 sensors
+INFO : [sty-27 22:26:15,114] root - AVERAGE SPEED on selected crossroads is 31.0km/h
+INFO : [sty-27 22:26:15,114] root - Test 1 executed successfully.
+INFO : [sty-27 22:26:15,114] root - Activity: Test 1 finished. Total time: 132ms
+INFO : [sty-27 22:26:15,115] root - === Executing test 2 ===
+INFO : [sty-27 22:26:15,153] root - Fetched 802 sensors
+INFO : [sty-27 22:26:15,154] root - There are average 31.0 cars waiting on every crossroad
+INFO : [sty-27 22:26:15,154] root - Test 2 executed successfully.
+INFO : [sty-27 22:27:30,382] root - Osmosis connection established successfully!
+INFO : [sty-27 22:27:30,432] root - RDNR connection established successfully!
+INFO : [sty-27 22:27:30,449] root - === Executing test 1 ===
+INFO : [sty-27 22:27:30,486] root - Fetched 139 crossroads
+INFO : [sty-27 22:27:30,533] root - Fetched 802 sensors
+INFO : [sty-27 22:27:30,535] root - AVERAGE SPEED on selected crossroads is 31.0km/h
+INFO : [sty-27 22:27:30,535] root - Test 1 executed successfully.
+INFO : [sty-27 22:27:30,535] root - Activity: Test 1 finished. Total time: 85ms
+INFO : [sty-27 22:27:30,536] root - === Executing test 2 ===
+INFO : [sty-27 22:27:30,584] root - Fetched 802 sensors
+INFO : [sty-27 22:27:30,584] root - There are average 31.0 cars waiting on every crossroad
+INFO : [sty-27 22:27:30,584] root - Test 2 executed successfully.
+INFO : [sty-27 22:27:30,584] root - Activity: Test 2 finished. Total time: 40ms
+INFO : [sty-27 22:27:30,584] root - All tests executed successfully :)
+INFO : [sty-28 20:51:51,658] root - Osmosis connection established successfully!
+INFO : [sty-28 20:51:51,748] root - RDNR connection established successfully!
+INFO : [sty-28 20:51:51,773] root - === Executing test 1 ===
+INFO : [sty-28 20:51:52,181] root - Fetched 139 crossroads
+INFO : [sty-28 20:51:53,107] root - Fetched 802 sensors
+INFO : [sty-28 20:51:53,109] root - AVERAGE SPEED on selected crossroads is 33.0km/h
+INFO : [sty-28 20:51:53,110] root - Test 1 executed successfully.
+INFO : [sty-28 20:51:53,110] root - Activity: Test 1 finished. Total time: 1336ms
+INFO : [sty-28 20:51:53,110] root - === Executing test 2 ===
+INFO : [sty-28 20:51:53,139] root - Fetched 802 sensors
+INFO : [sty-28 20:51:53,140] root - There are average 32.0 cars waiting on every crossroad
+INFO : [sty-28 20:51:53,141] root - Test 2 executed successfully.
+INFO : [sty-28 20:51:53,141] root - Activity: Test 2 finished. Total time: 16ms
+INFO : [sty-28 20:51:53,141] root - All tests executed successfully :)
+DEBUG: [sty-28 20:57:05,214] root - jdbc:postgresql://localhost:5432/osmosis:postgres:admin
+INFO : [sty-28 20:57:05,392] root - Osmosis connection established successfully!
+DEBUG: [sty-28 20:57:05,393] root - jdbc:postgresql://localhost:5432/rdnr:postgres:admin
+INFO : [sty-28 20:57:05,464] root - RDNR connection established successfully!
+INFO : [sty-28 20:57:05,488] root - === Executing test 1 ===
+INFO : [sty-28 20:57:05,705] root - Fetched 139 crossroads
+INFO : [sty-28 20:57:05,788] root - Fetched 802 sensors
+INFO : [sty-28 20:57:05,794] root - AVERAGE SPEED on selected crossroads is 33.0km/h
+INFO : [sty-28 20:57:05,794] root - Test 1 executed successfully.
+INFO : [sty-28 20:57:05,795] root - Activity: Test 1 finished. Total time: 304ms
+INFO : [sty-28 20:57:05,795] root - === Executing test 2 ===
+INFO : [sty-28 20:57:05,834] root - Fetched 802 sensors
+INFO : [sty-28 20:57:05,835] root - There are average 32.0 cars waiting on every crossroad
+INFO : [sty-28 20:57:05,835] root - Test 2 executed successfully.
+INFO : [sty-28 20:57:05,835] root - Activity: Test 2 finished. Total time: 22ms
+INFO : [sty-28 20:57:05,835] root - All tests executed successfully :)
+DEBUG: [sty-28 22:19:31,863] root - jdbc:postgresql://localhost:5432/osmosis:postgres:admin
+INFO : [sty-28 22:19:32,240] root - Osmosis connection established successfully!
+DEBUG: [sty-28 22:19:32,240] root - jdbc:postgresql://localhost:5432/rdnr:postgres:admin
+INFO : [sty-28 22:19:32,320] root - RDNR connection established successfully!
+INFO : [sty-28 22:19:32,404] root - === Executing test 1 ===
+INFO : [sty-28 22:19:33,095] root - Fetched 139 crossroads
+INFO : [sty-28 22:19:33,496] root - Fetched 802 sensors
+INFO : [sty-28 22:19:33,499] root - AVERAGE SPEED on selected crossroads is 33.0km/h
+INFO : [sty-28 22:19:33,499] root - Test 1 executed successfully.
+INFO : [sty-28 22:19:33,499] root - Activity: Test 1 finished. 
+###########################################################Total time: 1094ms###########################################################
+INFO : [sty-28 22:19:33,499] root - === Executing test 2 ===
+INFO : [sty-28 22:19:33,531] root - Fetched 802 sensors
+INFO : [sty-28 22:19:33,532] root - There are average 32.0 cars waiting on every crossroad
+INFO : [sty-28 22:19:33,532] root - Test 2 executed successfully.
+INFO : [sty-28 22:19:33,533] root - Activity: Test 2 finished. 
+###########################################################Total time: 16ms###########################################################
+INFO : [sty-28 22:19:33,533] root - === Executing test 6 ===
+INFO : [sty-28 22:19:33,533] root - Selecting wayOne parts. Executing: SELECT distinct way_id FROM krakow.way_tags WHERE v in ('Bronowicka', 'Królewska');
+INFO : [sty-28 22:19:33,661] root - Ways for wayOne found: 161
+INFO : [sty-28 22:19:33,661] root - Selecting wayOne segments ids. Executing: SELECT distinct id FROM krakow.way_segments WHERE id in (230244925,233356165,231815947,233355053,230302042,173696940,24236178,189125273,230244936,233355067,231815948,230301700,230244766,231816299,230183635,231312359,233355152,230184107,230184231,233355170,233355184,230244789,230244848,176494049,230244924,230244928,60650398,230183636,230301938,230183946,230183961,230244891,26372275,231816657,233355071,231815754,233355104,230244799,231816705,231816713,230244903,233355097,231815772,230302168,231816413,231816722,230244862,178149257,230244909,230244937,230244877,233355694,230183691,230301902,19801103,198640244,233355163,230244917,230244920,230301953,230302215,233356848,230183621,230183673,230244935,231815822,231816513,231816641,28768943,230244934,230244941,230183713,230183922,189125272,230244933,230183925,230244856,233355173,231815902,230244938,230301969,230244916,233355191,230244833,230244927,230244930,231816632,233355042,230184326,230301876,230244813,230184095,231815907,230184102,230244873,233355057,22414480,230184234,233355148,42813526,230183645,233355075,230244879,230244852,231815923,231816622,231816680,231816746,230244827,230302175,231816628,230244859,231816068,233355241,233355082,230184180,231815967,230244881,231816727,233355120,189125271,231816681,231815762,230183686,233355177,230244899,231815900,198640245,40716733,233355254,230184371,231815818,230244892,230244926,230244885,231816665,230301694,233355049,230183652,233355185,230244822,230301830,231816408,230244918,231816111,233355183,230301449,233356921,231815769,230184313,233355186,233356388,230244929,40716890,233355078,231815858,233356147,230184316,231816706,233354990,230244905);
+INFO : [sty-28 22:19:33,662] root - Selecting wayTwo parts. Executing: SELECT distinct way_id FROM krakow.way_tags WHERE v in ('Nawojki', 'Czarnowiejska', 'Armii Krajowej');
+INFO : [sty-28 22:19:33,793] root - Ways for wayOne found: 147
+INFO : [sty-28 22:19:33,794] root - Test 6 executed successfully.
+INFO : [sty-28 22:19:33,794] root - Activity: Test 6 finished. 
+###########################################################Total time: 261ms###########################################################
+INFO : [sty-28 22:19:33,794] root - All tests executed successfully :)
+DEBUG: [sty-28 22:20:21,466] root - jdbc:postgresql://localhost:5432/osmosis:postgres:admin
+INFO : [sty-28 22:20:21,935] root - Osmosis connection established successfully!
+DEBUG: [sty-28 22:20:21,935] root - jdbc:postgresql://localhost:5432/rdnr:postgres:admin
+INFO : [sty-28 22:20:22,018] root - RDNR connection established successfully!
+INFO : [sty-28 22:20:22,103] root - === Executing test 1 ===
+INFO : [sty-28 22:20:22,233] root - Fetched 139 crossroads
+INFO : [sty-28 22:20:22,342] root - Fetched 802 sensors
+INFO : [sty-28 22:20:22,350] root - AVERAGE SPEED on selected crossroads is 33.0km/h
+INFO : [sty-28 22:20:22,350] root - Test 1 executed successfully.
+INFO : [sty-28 22:20:22,351] root - Activity: Test 1 finished. 
+###########################################################Total time: 236ms###########################################################
+INFO : [sty-28 22:20:22,351] root - === Executing test 2 ===
+INFO : [sty-28 22:20:22,396] root - Fetched 802 sensors
+INFO : [sty-28 22:20:22,398] root - There are average 32.0 cars waiting on every crossroad
+INFO : [sty-28 22:20:22,398] root - Test 2 executed successfully.
+INFO : [sty-28 22:20:22,398] root - Activity: Test 2 finished. 
+###########################################################Total time: 31ms###########################################################
+INFO : [sty-28 22:20:22,399] root - === Executing test 6 ===
+INFO : [sty-28 22:20:22,399] root - Selecting wayOne parts. Executing: SELECT distinct way_id FROM krakow.way_tags WHERE v in ('Bronowicka', 'Królewska');
+INFO : [sty-28 22:20:22,547] root - Ways for wayOne found: 161
+INFO : [sty-28 22:20:22,547] root - Selecting wayOne segments ids. Executing: SELECT distinct id FROM krakow.way_segments WHERE id in (230244925,233356165,231815947,233355053,230302042,173696940,24236178,189125273,230244936,233355067,231815948,230301700,230244766,231816299,230183635,231312359,233355152,230184107,230184231,233355170,233355184,230244789,230244848,176494049,230244924,230244928,60650398,230183636,230301938,230183946,230183961,230244891,26372275,231816657,233355071,231815754,233355104,230244799,231816705,231816713,230244903,233355097,231815772,230302168,231816413,231816722,230244862,178149257,230244909,230244937,230244877,233355694,230183691,230301902,19801103,198640244,233355163,230244917,230244920,230301953,230302215,233356848,230183621,230183673,230244935,231815822,231816513,231816641,28768943,230244934,230244941,230183713,230183922,189125272,230244933,230183925,230244856,233355173,231815902,230244938,230301969,230244916,233355191,230244833,230244927,230244930,231816632,233355042,230184326,230301876,230244813,230184095,231815907,230184102,230244873,233355057,22414480,230184234,233355148,42813526,230183645,233355075,230244879,230244852,231815923,231816622,231816680,231816746,230244827,230302175,231816628,230244859,231816068,233355241,233355082,230184180,231815967,230244881,231816727,233355120,189125271,231816681,231815762,230183686,233355177,230244899,231815900,198640245,40716733,233355254,230184371,231815818,230244892,230244926,230244885,231816665,230301694,233355049,230183652,233355185,230244822,230301830,231816408,230244918,231816111,233355183,230301449,233356921,231815769,230184313,233355186,233356388,230244929,40716890,233355078,231815858,233356147,230184316,231816706,233354990,230244905);
+INFO : [sty-28 22:20:22,548] root - Selecting wayTwo parts. Executing: SELECT distinct way_id FROM krakow.way_tags WHERE v in ('Nawojki', 'Czarnowiejska', 'Armii Krajowej');

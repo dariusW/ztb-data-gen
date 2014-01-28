@@ -33,7 +33,11 @@ public class RdnrDao {
 
     private Connection connection;
 
-    private PreparedStatement sensorsOnCrossroadsStatement = null;
+    public Connection getConnection() {
+		return connection;
+	}
+
+	private PreparedStatement sensorsOnCrossroadsStatement = null;
 
     public RdnrDao(Connection connection) {
         this.connection = connection;

@@ -14,7 +14,11 @@ public class OsmosisDao {
 
     private Connection connection;
 
-    private PreparedStatement crossroadsNearPointStatement = null;
+    public Connection getConnection() {
+		return connection;
+	}
+
+	private PreparedStatement crossroadsNearPointStatement = null;
 
     public OsmosisDao(Connection connection) {
         this.connection = connection;
