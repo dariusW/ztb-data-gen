@@ -1,6 +1,7 @@
 package pl.edu.agh.dynamic.map.dao;
 
 import org.postgis.Point;
+import org.postgis.Polygon;
 import org.postgresql.PGConnection;
 import pl.edu.agh.dynamic.map.model.Crossroad;
 
@@ -12,13 +13,13 @@ public class OsmosisDao {
 
     private static final String SELECT_CROSSROADS_IN_RANGE_QUERY = "SELECT * from crossroads c where ST_Distance_sphere(c.boundary,ST_GeomFromText(?, 4326)) < ?;";
 
+    private static final String SELECT_CROSSROADS_IN_AREA_QUERY = "SELECT * from crossroads c where ST_Contains(ST_GeomFromText(?, 4326),c.boundary);";
+
     private Connection connection;
 
-    public Connection getConnection() {
-		return connection;
-	}
+    private PreparedStatement crossroadsNearPointStatement = null;
 
-	private PreparedStatement crossroadsNearPointStatement = null;
+    private PreparedStatement crossroadsInAreaStatement = null;
 
     public OsmosisDao(Connection connection) {
         this.connection = connection;
@@ -58,5 +59,22 @@ public class OsmosisDao {
         return crossroadList;
     }
 
+    public List<Crossroad> getCrossroadsInArea(Polygon area) throws SQLException {
+        if(crossroadsInAreaStatement == null) {
+            crossroadsInAreaStatement = connection.prepareStatement(SELECT_CROSSROADS_IN_AREA_QUERY);
+        }
 
+        crossroadsInAreaStatement.setString(1, area.toString());
+        ResultSet resultSet = crossroadsInAreaStatement.executeQuery();
+        List<Crossroad> crossroadList = createCrossroadsFromResultSet(resultSet);
+
+        return crossroadList;
+    }
+
+	
+	public Connection getConnection() {
+		return connection;
+	}
+
+	
 }

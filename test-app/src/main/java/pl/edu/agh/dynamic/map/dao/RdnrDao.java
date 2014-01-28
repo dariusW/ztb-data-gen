@@ -1,13 +1,15 @@
 package pl.edu.agh.dynamic.map.dao;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
 import pl.edu.agh.dynamic.map.model.Crossroad;
 import pl.edu.agh.dynamic.map.model.Sensor;
 import pl.edu.agh.dynamic.map.model.SensorType;
-
-import java.sql.*;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class RdnrDao {
 
@@ -23,9 +25,11 @@ public class RdnrDao {
 
     private static final String SENSOR_TYPE_COL = "inst.type as " + SENSOR_TYPE;
 
-    private static final String SENSOR_COLUMNS_TO_FETCH = "";
+    private static final String SENSOR_CROSSROAD_ID = "crossroadId";
 
-    private static final String SELECT_SENSORS_FOR_CROSSROADS = "SELECT " + SENSOR_VAL_COL + "," + SENSOR_INSTANCE_LABEL_COL + "," + SENSOR_TYPE_COL + " from param_monitoringparametervalue val \n" +
+    private static final String SENSOR_CROSSROAD_ID_COL = "ass.crossroads as " + SENSOR_CROSSROAD_ID;
+
+    private static final String SELECT_SENSORS_FOR_CROSSROADS = "SELECT " + SENSOR_VAL_COL + "," + SENSOR_INSTANCE_LABEL_COL + "," + SENSOR_TYPE_COL + "," + SENSOR_CROSSROAD_ID_COL + " from param_monitoringparametervalue val \n" +
             "join param_monitoringparameterinstance inst on (val.instance = inst.id)\n" +
             "join param_instanceassignment ass on (inst.assignment = ass.id) \n" +
             "join param_monitoringparametertype type on (inst.type = type.id)\n" +
@@ -33,11 +37,7 @@ public class RdnrDao {
 
     private Connection connection;
 
-    public Connection getConnection() {
-		return connection;
-	}
-
-	private PreparedStatement sensorsOnCrossroadsStatement = null;
+    private PreparedStatement sensorsOnCrossroadsStatement = null;
 
     public RdnrDao(Connection connection) {
         this.connection = connection;
@@ -65,6 +65,7 @@ public class RdnrDao {
             sensor.setValue(resultSet.getString(SENSOR_VAL));
             sensor.setName(resultSet.getString(SENSOR_NAME));
             sensor.setType(SensorType.fromInt(resultSet.getInt(SENSOR_TYPE)));
+            sensor.setCrossroadId(resultSet.getLong(SENSOR_CROSSROAD_ID));
             sensorList.add(sensor);
         }
         return sensorList;
@@ -85,4 +86,8 @@ public class RdnrDao {
         }
         return sensorTypeIds;
     }
+    public Connection getConnection() {
+		return connection;
+	}
+
 }

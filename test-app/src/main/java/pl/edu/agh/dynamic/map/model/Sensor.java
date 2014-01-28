@@ -15,6 +15,8 @@ public class Sensor {
 
     private String name;
 
+    private Long crossroadId;
+
     public String getValue() {
         return value;
     }
@@ -37,5 +39,13 @@ public class Sensor {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Long getCrossroadId() {
+        return crossroadId;
+    }
+
+    public void setCrossroadId(Long crossroadId) {
+        this.crossroadId = crossroadId;
     }
 }
