@@ -68,6 +68,13 @@ public class Application {
 		rdnr.disconnect();
 	}
 
+	@Command
+	public void sensors(int i) throws ClassNotFoundException, SQLException {
+		for(int ii=0; ii<i;ii++){
+			sensors();
+		}
+	}
+
 
 	@Command
 	public void all() throws ClassNotFoundException, SQLException {
@@ -87,6 +94,14 @@ public class Application {
 		osmosis.disconnect();
 		rdnr.disconnect();
 
+	}
+
+	@Command
+	public void all(int i) throws ClassNotFoundException, SQLException {
+		all();
+		for(int ii=1; ii<i;ii++){
+			sensors();
+		}
 	}
 	@Command
 	public void clean() throws ClassNotFoundException, SQLException {

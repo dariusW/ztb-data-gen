@@ -22,7 +22,7 @@ public class LaneGenerator {
 	private static final Logger log = Logger.getLogger(LaneGenerator.class);
 	private static final OsmosisConnector osmosis = OsmosisConnector.getInstance();
 
-	private static final String CROSS_NODES_SEARCH_QYERY = "select node_id as id from way_nodes n  join way_tags t on t.way_id = n.way_id  where t.k = 'highway' and t.v in ('primary','secondary','tertiary','trunk') group by node_id having count(node_id) = 4";
+	private static final String CROSS_NODES_SEARCH_QYERY = "select node_id as id from way_nodes n  join way_tags t on t.way_id = n.way_id  where t.k = 'highway' and t.v in ('primary','secondary','tertiary','trunk','unclassified') group by node_id having count(node_id) = 4";
 
 	private static final String WAY_ID_SEARCH_FOR_NODE = "select way_segments.id as segmentId, way_id as idd, node1_id as n1, node2_id as n2, n1.geom as g1, n2.geom as g2 from way_segments join krakow.nodes n1 on n1.id = node1_id join krakow.nodes n2 on n2.id=node2_id where node1_id = %d OR node2_id = %d";
 
@@ -90,7 +90,7 @@ public class LaneGenerator {
 						PGgeometry geom = wayIds.get(wayId);
 						points[sequence] = (Point)geom.getGeometry();
 						Long smnode = insertSmnode(geom);
-						insertLaneSmnode(laneStartWayId, smnode, sequence);
+						insertLaneSmnode(laneId, smnode, sequence);
 						sequence++;						
 					}
 					points[sequence] = points[0];
