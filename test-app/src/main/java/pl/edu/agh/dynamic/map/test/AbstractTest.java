@@ -45,8 +45,9 @@ public abstract class AbstractTest implements Runnable{
 	protected void start(){
 		start = Calendar.getInstance().getTimeInMillis();
 	}
-	protected void stop(){
+	protected Long stop(){
 		Long time = Calendar.getInstance().getTimeInMillis()-start;
 		log.info("Request time: "+time+"ms");
+		return time;
 	}
 }

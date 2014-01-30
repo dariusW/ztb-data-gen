@@ -13,6 +13,7 @@ import pl.edu.agh.dynamic.map.dao.ConnectionManager;
 import pl.edu.agh.dynamic.map.dao.OsmosisDao;
 import pl.edu.agh.dynamic.map.dao.RdnrDao;
 import pl.edu.agh.dynamic.map.log.StatsCollector;
+import pl.edu.agh.dynamic.map.test.SpecialTest;
 import pl.edu.agh.dynamic.map.test.StressTest;
 import pl.edu.agh.dynamic.map.test.Test1;
 import pl.edu.agh.dynamic.map.test.Test2;
@@ -64,16 +65,16 @@ public class Application {
 		initLoggers();
 		initJDBC();
 
-		new Test1().runTest();
-		new Test2().runTest();
-		new Test3().runTest();
-		new Test4().runTest();
-		new Test5().runTest();
-
+//		new Test1().runTest();
+//		new Test2().runTest();
+//		new Test3().runTest();
+//		new Test4().runTest();
+//		new Test5().runTest();
+//
+//		
+//		new StressTest().runTest();
 		
-		new StressTest().runTest();
-		
-		
+		new SpecialTest().runTest();
 		osmosisDao.getConnection().close();
 		rdnrDao.getConnection().close();
 		log.info("All tests executed successfully :)");
