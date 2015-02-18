@@ -1,4 +1,4 @@
 ztb-data-gen
 ============
 
-ZTB generator danych do baz osmosis i rdnr
+ZTB osmosis & rdnr data generator
